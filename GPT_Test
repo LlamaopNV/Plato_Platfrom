@@ -1,5 +1,41 @@
-<mxfile host="Electron" modified="2023-05-06T12:00:00.000Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/19.0.3 Chrome/110.0.0.0 Safari/537.36" etag="Wn5r9Yh75lkKtmnDy4zn" version="19.0.3" type="device">
-  <diagram id="r0t1b7jyGwj3GflwqGp0" name="Customer Purchase Flow">
-    7Zddj5owFIafJvc+xUHvzDR1Zbq6pZt2+njzFZKE7GJhIQf69kuJIsmQqEqxHcySDz7z23O8uJBkiGKhMMf8wQPf4Ml4Vcfld8EPC1R/1Xy96uvhlx/eNvmC4KJTP3rwjj6pl3oXq2hrV1nDyV28F1huE5cJ25xrHr/94WwsaBsG1eZnlfx6dlJ1m2JvUDZPIgvPmlYuwYUwzRgGKiFMPtCKJRsNMDdbzBMtpNJcmxalVza5fBSf3LYUPRNeMHxVlC4jM2vTx+gptQ4BjAeGBU6XYx0mTgNCKXb6Ah90ebS9F8cn7HDT2/tE0ujO/1EPzAxrpGPeGSzO4BNo8Q17hgxSFoJp1eBpEpL6bU/G60JglhnLSLoRdFzco6GDHSc0jRJlmLQlFChVLpKQSwj1bRchUZmWDC6YoNNG0gGJHoQhOUMeS0ZMtwiMh0UEjKEJWi7l4XQby6FFwiFRCXqgEJD+oLEiMBS8REjwjFJSFpCluZWBMOQhLomCJEQM0oYUjxvGzDhJBkMCPK4UjQhKMRSyo1oZUr3wpkLhQhKMRSyo0o5cW3NnSlxoQpLjShVSo0oZUb3whUuNCJKnShEpMGfLBS48IkqdKEiU4M+HFJwiSp0gRKbBnwwUuPCKKnSBEmwZ8sFLjwiip0gRLMGfLCi48IkaRKESkwb8sJLjwhSp0gRKTBnwgsuPCFGnSBEmwZ8MLDwhRp0gRKTBnwwoeHCKKnSBEmwZ8MKHhwhRp0gRKTBnwwoSMCKKnSBEmwZ8sKEnwhSp0gRKTBnwgsSfCCF3XlF36yvp9U6H9F3F/vD
-  </diagram>
-</mxfile>
+<mxfile host="app.diagrams.net" modified="2024-05-06T12:00:00.000Z" agent="Mozilla/5.0" etag="purchasing_flow" version="14.6.13">
+  <diagram id="rLWbTwNsl9d1EubC7f4M" name="Page-1">
+    <mxGraphModel dx="1162" dy="741" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <!-- Start -->
+        <mxCell id="2" value="Start" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="25" y="50" width="80" height="40" as="geometry"/>
+        </mxCell>
+        <!-- Enter Store -->
+        <mxCell id="3" value="Enter Store" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="25" y="150" width="100" height="40" as="geometry"/>
+        </mxCell>
+        <!-- Choose Item -->
+        <mxCell id="4" value="Choose Item" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="25" y="250" width="100" height="40" as="geometry"/>
+        </mxCell>
+        <!-- Go to Checkout -->
+        <mxCell id="5" value="Go to Checkout" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="25" y="350" width="120" height="40" as="geometry"/>
+        </mxCell>
+        <!-- Pay for Item -->
+        <mxCell id="6" value="Pay for Item" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="25" y="450" width="100" height="40" as="geometry"/>
+        </mxCell>
+        <!-- End -->
+        <mxCell id="7" value="End" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="35" y="550" width="80" height="40" as="geometry"/>
+        </mxCell>
+        <!-- Connections -->
+        <mxCell id="8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2" target="3">
+          <mxGeometry width="50" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3" target="4">
+          <mxGeometry width="50" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4" target="5">
+          <mxGeometry width="50" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="11" value="" style="edgeStyle
